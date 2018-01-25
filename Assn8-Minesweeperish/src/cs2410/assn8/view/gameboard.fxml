@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs2410.assn8.controller.GameBoardController">
+   <top>
+      <fx:include fx:id="menu" source="minesweeperishmenu.fxml" />
+   </top>
+   <bottom>
+      <Pane fx:id="pane" maxHeight="519.0" maxWidth="519.0" minHeight="519.0" minWidth="519.0" prefHeight="519.0" prefWidth="519.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+       <fx:include fx:id="headerbar" source="headerbar.fxml" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

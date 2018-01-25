@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<MenuBar xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs2410.assn8.controller.MenuController">
+   <menus>
+      <Menu mnemonicParsing="false" text="Audio">
+        <items>
+            <CheckMenuItem fx:id="audioMenuItem" mnemonicParsing="false" onAction="#updateAudio" selected="true" text="Use Audio" />
+        </items>
+      </Menu>
+   </menus>
+</MenuBar>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TilePane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="49.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs2410.assn8.controller.HeaderBarController">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <Label text="Time" />
+            <Label fx:id="timeLabel" text="0" />
+         </children>
+      </VBox>
+      <Button fx:id="startBtn" mnemonicParsing="false" text="Start" />
+      <VBox alignment="CENTER">
+         <children>
+            <Label text="Bombs Left" />
+            <Label fx:id="bombLabel" text="0" />
+         </children>
+      </VBox>
+   </children>
+</TilePane>
